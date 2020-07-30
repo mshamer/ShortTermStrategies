@@ -1,0 +1,14 @@
+# ShortTermStrategies - GWR
+The GWR model reported by Hu et al. (2013) can be expressed as: 
+
+PM_(〖2.5〗_i )=β_0i+β_1i×〖HPBL〗_i+β_2i×〖RH〗_i+β_3i×〖TEMP〗_i+β_4i×〖WIND_SPEED〗_i+β_5i×〖FOREST_COVER〗_i+β_6i×MODIS_AOD_i+ϵ_i
+
+where PM_(〖2.5〗_i ) is the PM2.5 measurements at site i, HPBL is the boundary layer height, RH is the relative humidity, TEMP is the air temperature, WIND_SPEED refers to the surface scalar wind speed, FOREST_COVER denotes the percentage of the forest cover in a given pixel where site i falls, and MODIS_AOD is the MODIS aerosol optical depth. β_0i is site-specific GWR intercept, and β_1i through β_6i are the site-specific GWR slope for each variable. ϵ_i is the error term for the model at site i, which is generally assumed to be from a normal distribution with zero mean and constant variance σ_i^2 (ϵ_i~N(0,σ_i^2)).
+
+The R code of GWR modeling can be found in GWR-example.R
+
+which is provided by the R package “GWmodel” (Lu et al., 2014).
+
+Lu, B., Harris, P., Charlton, M., & Brunsdon, C. (2014). The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models. Geo-spatial Information Science, 17(2), 85-101.
+
+Hu, X., L. Waller, M. Al-Hamdan, W. Crosson, M. Estes Jr, S. M. Estes, D. A. Quattrochi, J. A. Sarnat, and Y. Liu (2013), Estimating ground-level PM2.5 concentrations in the southeastern U.S. using geographically weighted regression, Environmental Research, 121, 1-10.
