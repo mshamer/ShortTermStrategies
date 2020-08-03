@@ -10,6 +10,7 @@ database$month <- month(database$Date)        #Extract month from date
 database$Julian_Day <- julian(database$Date)  #Extract julian day from date
 
 ## Run model----
+#Examples of two different models
 
 #Model 1
 model.gam1 <-gam(PM25~s(AOD_550,        #GAM formula (Y~x1+x2...) with a smooth function on AOD_550 
