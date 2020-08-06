@@ -1,7 +1,7 @@
 The zipfile for reproducing Figure 1 includes three files:
 (1) SJV.CWV.CM.hdist.Regress.rds - dataset used to produce the plot
 (2) PM2.5.Site.Daily.Plot.R - R function for plotting
-(3) PM2.5.Site.Daily.Plot_Example.R - code for execting the plotting function
+(3) PM2.5.Site.Daily.Plot_Example.R - code for executing the plotting function
 
 The resulted plot demonstrates how many MAIAC AOD - EPA PM2.5 collocations are available during winter 2012-2013 over Central Valley, CA
 (i.e. available MAIAC data over PM site locations, when PM data is available within +/- 1 hour around the satellite overpass time). 
