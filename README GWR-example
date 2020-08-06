@@ -1,4 +1,4 @@
-# ShortTermStrategies - GWR
+# README - GWR Example
 The GWR model reported by Hu et al. (2013) can be expressed as: 
 
 PM_(〖2.5〗_i )=β_0i+β_1i×〖HPBL〗_i+β_2i×〖RH〗_i+β_3i×〖TEMP〗_i+β_4i×〖WIND_SPEED〗_i+β_5i×〖FOREST_COVER〗_i+β_6i×MODIS_AOD_i+ϵ_i
