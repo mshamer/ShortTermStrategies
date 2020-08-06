@@ -1,0 +1,11 @@
+ #README - RF
+ 
+The zipfile for running a Random Forest (RF) model includes four files:
+(1) TestData_RF.rds - example dataset used to run the model and the plot
+(2) nrmse_func.R - R function to be sourced in the model for calculating Normalized RMSE
+(3) plot_importance.R - R function to be sourced in the model for ploting variable importance
+(4) RF-example.R - code for executing the model
+
+The resulting plots demonstrate (1) the importance of the explanatory variables and (2) the association between  AOD - and the predicted PM2.5 concentratrions based on a RF model. 
+
+Code produced by Mr. Alaa Mhawish, USRA, NASA Ames Research Center, CA (2020)
