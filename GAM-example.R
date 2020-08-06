@@ -1,4 +1,4 @@
-#Example code for Geberalized Additive Models (GAM)
+#Example code for Generalized Additive Models (GAM)
 
 #libraries
 library(mgcv)         #GAM
